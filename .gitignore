@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.prjide
+tags
+tags_sorted_by_file
+.DS_Store
+composer.json
+composer.lock
+installed.json

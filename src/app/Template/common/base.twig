@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Just for fun</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+</head>
+<body>
+{% block body %}
+    {% block head_css %}
+    <style type="text/css">
+        .table {
+            border-collapse: collapse;
+            border:solid 1px #dbdee1;
+        }
+
+        .table th,td {
+            border:solid 1px #dbdee1;
+            padding: 5px;
+        }
+    </style>
+    {% endblock %}
+    <div class="main">
+    {% block content %}
+    {% endblock %}
+    </div>
+    {% block tail_js %}
+    {% endblock %}
+{% endblock %}
+</body>
+</html>
